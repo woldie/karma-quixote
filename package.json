@@ -1,0 +1,35 @@
+{
+  "name": "karma-quixote",
+  "description": "Quixote for Karma",
+  "keywords": [
+    "karma-plugin",
+    "karma-adapter",
+    "quixote",
+    "karma"
+  ],
+  "version": "0.0.1",
+  "author": "Dave Woldrich <xxx@yyy.zzz> (https://github.com/woldie)",
+  "contributors": [
+    {
+      "name": "Dave Woldrich",
+      "url": "https://github.com/woldie"
+    }
+  ],
+  "main": "./index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/woldie/karma-quixote",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/woldie/karma-quixote.git"
+  },
+  "bugs": {
+    "url": "https://github.com/woldie/karma-quixote/issues"
+  },
+  "devDependencies": {
+    "quixote": ">=0.10.0"
+  },
+  "peerDependencies": {
+    "quixote": "*",
+    "karma": ">=0.10.9"
+  }
+}
