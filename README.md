@@ -6,16 +6,12 @@ karma-quixote
 Installation
 ------------
 
-Install the plugin 
-<!--
-from npm:
+Install the plugin from npm:
 
 ```sh
 $ npm install karma-quixote --save-dev
 ```
-Or -->
-
-from Github:
+Or from Github:
 
 ```sh
 $ npm install 'git+https://github.com/woldie/karma-quixote.git' --save-dev
