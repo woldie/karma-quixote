@@ -25,18 +25,22 @@ Instructions on how to install karma can be found [here](http://karma-runner.git
 
 ## Configuration
 
-Add `quixote` to the `frameworks` key in your Karma configuration:
+In your Karma configuration:
+
+* add `require('karma-quixote')` to the plugins list, and
+* add `quixote` to the `frameworks` key
 
 ```js
 // karma.conf.js
 module.exports = function(config) {
   config.set({
-    frameworks: ['quixote', ...],
-
+    plugins: [ require('karma-quixote'), ... ],
+  
+    frameworks: ['quixote', ... ],
+    
         .
         .
         .
-        
   });
 };
 ```
