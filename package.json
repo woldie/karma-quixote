@@ -26,7 +26,7 @@
     "url": "https://github.com/woldie/karma-quixote/issues"
   },
   "devDependencies": {
-    "quixote": ">=0.10.0"
+    "quixote": ">=0.12.5"
   },
   "peerDependencies": {
     "quixote": "*",

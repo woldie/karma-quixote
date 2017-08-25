@@ -5,7 +5,7 @@ var pattern = function(file) {
 };
 
 var framework = function(files) {
-	files.unshift(pattern(path.resolve(require.resolve("quixote"), "../quixote.js")));
+	files.unshift(pattern(path.resolve(require.resolve("quixote"), "../../dist/quixote.js")));
 };
 
 framework.$inject = ["config.files"];
